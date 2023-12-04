@@ -1,0 +1,39 @@
+
+body{
+    margin: 0 auto;
+   width: 1440px;
+   
+}
+.container{
+    margin: 0 250px;
+}
+.btn{
+    border-radius: 40px;
+    background: #FF4E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: #444;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+hr{
+    margin-top: 100px;
+    height: 2px;
+    background: #FF4E50;
+}
+
+
+@import"blocks/header";
+@import"blocks/dream";
+@import"blocks/partner";
+@import "blocks/holiday";
+@import "blocks/form";
+@import "blocks/footer";
+@import "media";

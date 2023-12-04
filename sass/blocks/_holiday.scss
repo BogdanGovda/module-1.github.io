@@ -1,0 +1,70 @@
+.box{
+    
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding-top: 142px;
+    box-sizing: border-box;
+}
+.holiday{
+    margin-top: 88px;
+    &_content{
+        margin-top: 35px;
+        &_item{
+            display: flex;
+            &_block{
+                width: 300px;
+                height: 310px;
+                background: url("../img/Object.png") center center/cover no-repeat;
+
+
+                @extend .box;
+            }
+            &_block:nth-child(2){
+                margin-left: 20px;
+                background: url("../img/Object (1).png") center center/cover no-repeat;
+
+            }
+            &_block:nth-child(3){
+                padding-top: 129px;
+                margin-left: 20px;
+                background: url("../img/Object (2).png") center center/cover no-repeat;
+
+            }
+            &_block-big{
+                width: 620px;
+                height: 310px;
+                margin-left: 20px;
+                @extend .box;
+            }
+        }
+        &_item:nth-child(2){
+            margin-top: 20px;
+        }
+        &_item:nth-child(2) &_item_block{
+            background: url("../img/Object (3).png") center center/cover no-repeat;
+        }
+        &_item:nth-child(2) &_item_block-big{
+            background: url("../img/Object (4).png") center center/cover no-repeat;
+
+        }
+        &_item:nth-child(3){
+            margin-top: 20px;
+        }
+        &_item:nth-child(3) &_item_block-big{
+            background: url("../img/Object (5).png") center center/cover no-repeat;
+            margin-left: 0;
+
+        }
+        &_item:nth-child(3) &_item_block{
+            background: url("../img/Object (6).png") center center/cover no-repeat;
+            margin-left: 20px;
+
+        }
+    }
+}

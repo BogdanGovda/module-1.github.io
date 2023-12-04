@@ -1,0 +1,95 @@
+.header{
+    box-sizing: border-box;
+    background: url("../img/header_bgs.png") center (center/cover) no-repeat;
+    height: 700px;
+    padding-top: 50px;
+    &_head{
+        display: flex;
+        img{
+            height: 16px;
+        }
+        &_authorization{
+            
+            margin-left: 597px;
+            display: flex;
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            
+            .login{
+                cursor: pointer;
+            }
+            .sign{
+                height: 33px;
+                width: 88px;
+              display: flex;
+              justify-content: center;
+              align-items:center;
+                margin-left: 18px;
+                margin-top: -11px;
+                border-radius: 40px;
+                border: 2px  white solid;
+                cursor: pointer;
+             
+            }
+            .sign:hover{
+                background-color: #817373;
+            }
+
+        }
+    }
+    &_content{
+        margin-top: 147px;
+        margin-left: 234px;
+        
+        &_title{
+            width: 470px;
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_descr{
+            margin-left: -234px;
+            margin-top: 28px;
+            color: #F7F3F2;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24.5px; /* 102.083% */
+        }
+        &_btn{
+            @extend .btn;
+            margin-left: 125px;
+            margin-top: 34px;
+        
+           
+            width: 225px;
+            height: 40px;
+         
+
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            cursor: pointer;
+        }
+        &_btn:hover{
+            background: #ec4e51;
+
+        }
+    }
+}
+
+  

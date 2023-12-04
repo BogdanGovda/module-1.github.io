@@ -1,0 +1,112 @@
+.partner{
+    margin-top: 89px;
+    &_content{
+        display: flex;
+        margin-top: 20px;
+        height: 205px;
+        &_item{
+            width: 221px;
+            height: 205px;
+            margin-top: 15px;
+            display: flex;
+            
+            align-items: center;
+            flex-direction: column;
+            
+            &_img{
+                position: relative;
+            }
+            &_img::after{
+                content: "";
+                background-color: #FF4E50;
+                background-image: url("../icon/music2.svg");
+                background-position: center;
+                background-repeat: no-repeat;
+                display: block;
+                position: absolute;
+                border-radius: 50%;
+                right: 0;
+                bottom: 2px;
+                width: 32px;
+                height: 32px;
+            }
+            &_title{
+                margin-top: 14px;
+                color: #444;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            &_descr{
+                margin-top: 23px;
+                color: #666;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 14px; 
+            }
+        }
+        &_item:nth-child(2){
+            margin-left: 21px;
+        }
+        &_item:nth-child(3){
+            margin-left: 18px;
+        }
+        &_item:nth-child(4){
+            margin-left: 18px;
+        }
+        &_item:nth-child(2) &_item_img::after{
+            background-color: #19D4CA;
+            background-image: url("../icon/brush.svg");
+            bottom: 5px;
+        }
+        &_item:nth-child(3) &_item_img::after{
+            background-color: #FFA710;
+            background-image: url("../icon/camera.svg");
+            bottom: 5px;
+            
+        }
+        &_item:nth-child(3) &_item_descr{
+           margin-top: 26px;
+            
+        }
+        &_item:nth-child(4) &_item_img::after{
+            background-color: #667DF3;
+            background-image: url("../icon/airplane.svg");
+            bottom: 5px;
+            right: -2px;
+            
+        }
+        &_item:nth-child(4) &_item_descr{
+            margin-top: 27px;
+             
+         }
+       
+    }
+    &_btn{
+        width: 175px;
+        height: 38px;
+        margin-top: 69px;
+        margin-left: 382px;
+        
+        
+        border-radius: 40px;
+        border: 2px solid #FF4E50;
+        background: #FFF;
+
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        color: #FF4E50;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}

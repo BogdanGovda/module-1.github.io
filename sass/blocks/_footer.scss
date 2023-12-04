@@ -1,0 +1,66 @@
+.footer{
+    margin-top: 34px;
+    .container{
+
+        display: flex;
+        
+    }
+    &_logo{
+        color: #FF4E50;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &_content{
+        margin-left: 122px;
+        &_item-title{
+            color: #444;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_item{
+            margin-top: 11px;
+            color: #999;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 26px; /* 185.714% */
+        }
+        &_item:nth-child(n){
+            margin-top: 0px;
+        }
+        &_item:nth-child(2){
+            margin-top: 11px;
+        }
+        &_item:nth-child(6){
+            font-size: 13px;
+        }
+    }
+    &_content:nth-child(3){
+        margin-left: 132px;
+    }
+    &_designed{
+        margin-top: 5px;
+        margin-left: 288px;
+        &_title{
+            margin-top: -5px;
+    margin-left: 30px;
+            color: #CCC;
+            font-family: Montserrat;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+                    }
+            &_logo{
+                margin-top: 6px;
+            }
+    }
+            
+}

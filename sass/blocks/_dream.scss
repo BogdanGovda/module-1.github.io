@@ -1,0 +1,79 @@
+.dream{
+    
+    padding-top: 90px;
+    &_content{
+        margin-top: 34px;
+        display: flex;
+        &_item{
+            box-sizing: border-box;
+            background: url("../img/step_1.png");
+            width: 300px;
+            height: 400px;
+            padding-top: 220px;
+            &_contents{
+                margin-left: 25px;
+                // margin-top: 220px;
+                &_btn{
+                @extend .btn;
+                width: 70px;
+                height: 20px;
+                 
+                color: #FFF;
+                font-family: Montserrat;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 2px;
+                }
+           
+                &_title{
+                    margin-top: 21px;
+                    color: #FFF;
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 26px; /* 108.333% */
+                }
+                &_descr{
+                    margin-top: 26px;
+                    color: #E3E3E3;
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 14px; 
+                   
+                }
+            }
+
+        }
+        &_item:nth-child(2){
+            background: url("../img/Step2.png");
+            margin-left: 20px;
+            padding-top: 250px;
+         
+        }
+        &_item:nth-child(2) &_item_contents_title{
+            margin-top: 22px;
+            
+        }
+        &_item:nth-child(2) &_item_contents_descr{
+            margin-top: 20px;
+            
+        }
+        &_item:nth-child(3){
+            background: url("../img/Step3.png");
+            margin-left: 20px;
+            padding-top: 220px;
+         
+        }
+       
+   
+  
+
+}
+
+}
+
